@@ -80,7 +80,7 @@ public class TicTacToe {
     // }
 
     private boolean isElementPresent(String[] array, String targetElement, int i) {
-        if (i > array.length) {
+        if (i >= array.length) {
             return false;
         }
         else  if (array[i] == targetElement){
